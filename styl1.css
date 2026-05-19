@@ -22,7 +22,7 @@ img {
         font-variation-settings:
         "YEAR" 1983;
 }
-.titlefont:font {
+.titlefont:hover {
     color: white;
     transition: 1s;
 }
