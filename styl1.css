@@ -9,12 +9,17 @@ nav {
 }
 
 .titlefont {
-    color:  #F4F7F6;
+    color:  #808080;
     text-align: center;
     font-size: 30px;
     margin: 5px 15px;
     margin-top: 60px;
     font-family: "Climate Crisis", sans-serif;
+    text-decoration: none;
         font-variation-settings:
         "YEAR" 1983;
+}
+.titlefont:font {
+    color: white
+    transition: 1s
 }
