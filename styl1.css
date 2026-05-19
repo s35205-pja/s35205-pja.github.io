@@ -11,6 +11,8 @@ nav {
 }
 img {
     width: 100%;
+    hight: auto;
+    display: block;
 }
 .titlefont {
     color:  #808080;
