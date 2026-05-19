@@ -23,6 +23,6 @@ img {
         "YEAR" 1983;
 }
 .titlefont:font {
-    color: white
-    transition: 1s
+    color: white;
+    transition: 1s;
 }
