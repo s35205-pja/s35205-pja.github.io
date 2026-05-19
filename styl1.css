@@ -9,8 +9,10 @@ nav a {
               font-style: normal;
                   font-variation-settings:
                        "YEAR" 1983;
+}
     .titlefont {
         color:  #F4F7F6;
-            background-color: #0A0E17;
+           text-align: center;
+            font-size: 40px;
+                margin: 5px 4px;
             }
-    }
