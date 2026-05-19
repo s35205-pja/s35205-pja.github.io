@@ -27,3 +27,9 @@ img {
     color: white;
     transition: 1s;
 }
+
+.semibig {
+    color: #0A0E17;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
