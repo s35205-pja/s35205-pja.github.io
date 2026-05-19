@@ -1,4 +1,15 @@
+body {
 
+}
+// <uniquifier>:titlefont
+.climate-crisis-<titlefont> {
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1983;
+}
 a {
   color: white
     }
