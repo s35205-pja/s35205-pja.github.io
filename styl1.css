@@ -1,13 +1,16 @@
 body {
     background-color: #0A0E17;
-     color: #F4F7F6;
+    margin: 0px;
+    color: #F4F7F6;
 }
 
 nav {
     display: flex;
     justify-content: center;
 }
-
+img {
+    width: 100%;
+}
 .titlefont {
     color:  #808080;
     text-align: center;
