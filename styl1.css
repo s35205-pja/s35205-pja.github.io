@@ -4,11 +4,13 @@ body {
 }
 nav a {
   font-family: "Climate Crisis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "YEAR" 1983;
-    color:  #F4F7F6;
-    background-color: #0A0E17;
-}
+      font-optical-sizing: auto;
+          font-weight: 400;
+              font-style: normal;
+                  font-variation-settings:
+                       "YEAR" 1983;
+    .titlefont {
+        color:  #F4F7F6;
+            background-color: #0A0E17;
+            }
+    }
