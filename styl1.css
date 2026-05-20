@@ -57,4 +57,12 @@ button: hover {
     color: #0A0E17;
     background-color: white;
     transition: 0.5s;
+
+.quote {
+    color: #0A0E17;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
     
