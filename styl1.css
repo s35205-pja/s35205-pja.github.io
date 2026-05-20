@@ -10,6 +10,7 @@ nav {
     background-color: #0A0E17;
     padding-bottom: 60px;
 }
+
 img {
     width: 100%;
     height: auto;
@@ -27,6 +28,7 @@ img {
         font-variation-settings:
         "YEAR" 1983;
 }
+
 .titlefont:hover {
     color: white;
     transition: 1s;
@@ -57,6 +59,7 @@ button: hover {
     color: #0A0E17;
     background-color: white;
     transition: 0.5s;
+}
 
 .quote {
     color: #0A0E17;
@@ -89,6 +92,7 @@ footer {
 footer * {
     margin-left:50px;
     margin-right:50px;
+}
 footer p {
     margin: 0px;
 }
