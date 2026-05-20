@@ -77,6 +77,12 @@ button: hover {
     background-position: bottom right;
 }
 
+.imgsemi {
+    height: 1000px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
 p a {
     color: #808080;
     font-style: italic;
