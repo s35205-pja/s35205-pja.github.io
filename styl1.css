@@ -29,9 +29,22 @@ img {
         "YEAR" 1983;
 }
 
-.titlefont:hover {
+.titlefont: :after {
+    content: ' ';
+    position: absolute;
+    height: 5px;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    background: white;
+    transition: .2s;
+}
+
+.titlefont:hover:after {
     color: white;
     transition: 1s;
+    cursor: pointer;
+    width: 100%;
 }
 
 .kolumna {
