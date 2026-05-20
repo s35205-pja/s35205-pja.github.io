@@ -66,4 +66,13 @@ button: hover {
     background: #e5e4e2 url("cudzysłów_index1.svg") no-repeat:
     background-position: bottom right;
 }
-    
+
+p a {
+    color: #808080;
+    font-style: italic;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
