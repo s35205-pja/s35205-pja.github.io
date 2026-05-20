@@ -76,3 +76,19 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #0A0E17;
+    font-size: 20px;
+    color: white;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer button {
+    font-family: "Climate Crisis", sans-serif;
+}
