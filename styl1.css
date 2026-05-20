@@ -81,10 +81,14 @@ footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #0A0E17;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
+    display:flex;
 }
 
+footer * {
+    margin-left:50px;
+    margin-right:50px;
 footer p {
     margin: 0px;
 }
