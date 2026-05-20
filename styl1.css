@@ -36,4 +36,18 @@ img {
     color: #0A0E17;
     font-family: "Playfair Display", serif;
     font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+button {
+    height: 100px;
+    width: 400px;
+    color: white;
+    background-color: #0A0E17;
+    border: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px
 }
