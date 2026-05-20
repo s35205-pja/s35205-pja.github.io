@@ -64,5 +64,8 @@ button: hover {
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 50px;
+    padding: 50px;
+    background: #e5e4e2 url("cudzysłów_index1.svg") no-repeat:
+    background-position: bottom right;
 }
     
