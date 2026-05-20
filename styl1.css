@@ -36,8 +36,8 @@ img {
     color: #0A0E17;
     font-family: "Playfair Display", serif;
     font-size: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: justify;
 }
 
@@ -47,7 +47,14 @@ button {
     color: white;
     background-color: #0A0E17;
     border: none;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-size: 30px
+    border: solid 4px #0A0E17;
 }
+
+button: hover {
+    color: #0A0E17;
+    background-color: white;
+    transition: 0.5s;
+    
