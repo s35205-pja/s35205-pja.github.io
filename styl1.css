@@ -32,12 +32,14 @@ img {
     transition: 1s;
 }
 
+.kolumna {
+    margin-left: 200px;
+    margin-right: 200px;
+}
 .semibig {
     color: #0A0E17;
     font-family: "Playfair Display", serif;
     font-size: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
     text-align: justify;
 }
 
@@ -47,8 +49,6 @@ button {
     color: white;
     background-color: #0A0E17;
     border: none;
-    margin-left: 200px;
-    margin-right: 200px;
     font-size: 30px
     border: solid 4px #0A0E17;
 }
@@ -61,8 +61,6 @@ button: hover {
 .quote {
     color: #0A0E17;
     font-size: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
     margin-top: 50px;
     padding: 50px;
     background: #e5e4e2 url("cudzysłów_index1.svg") no-repeat:
