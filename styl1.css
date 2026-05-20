@@ -79,8 +79,8 @@ button: hover {
 }
 
 .imgsemi {
-    height: 1000px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
