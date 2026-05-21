@@ -29,6 +29,16 @@ nav {
     cursor: pointer;
 }
 
+.activepage a {
+  text-decoration: none;
+}
+
+.activepage a.active {
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
 @media(max-width: 1000px) {
     nav {
         flex-direction: column;
