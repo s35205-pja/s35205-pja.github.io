@@ -99,11 +99,17 @@ button:hover {
 }
 
 .imgsemi {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    width: 60%;
+    margin: auto;
     padding: 0px;
 }
+
+@media (max-width: 1000px) {
+    .imgsemi {
+        width: 100%;
+    }
+}
+    
 p a {
     color: #808080;
     font-style: italic;
