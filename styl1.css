@@ -119,19 +119,28 @@ footer {
     padding-bottom: 60px;
     background-color: #0A0E17;
     font-size: 25px;
-    color: white;
-    display:flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-footer * {
-    margin-left:5%;
-    margin-right:5%;
-}
 footer p {
-    margin: 0px;
+    margin: 5px;
 }
 
 footer button {
     font-family: "Climate Crisis", sans-serif;
+    width: 350px;
 }
+
+@megia (max-width: 1000px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    footer button {
+        width: 100%;
+    }
+    footer div {
+        text-align: center;
+    }
