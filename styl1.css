@@ -11,12 +11,6 @@ nav {
     padding-bottom: 60px;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    
-}
 .titlefont {
     color:  #808080;
     text-align: center;
@@ -27,6 +21,27 @@ img {
     text-decoration: none;
         font-variation-settings:
         "YEAR" 1983;
+}
+
+.titlefont:hover {
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+@media(max-width: 1000px) {
+    nav {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .titlefont {
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+    }
 }
 
 .navanimation {
@@ -49,12 +64,6 @@ img {
   transform: scaleX(1);
 }
 
-.titlefont:hover {
-    color: white;
-    transition: 1s;
-    cursor: pointer;
-}
-
 h3 {
     color: #0A0E17;
     font-size: 60px;
@@ -72,6 +81,13 @@ h3 {
         margin-left: 12.5%;
         margin-right: 12.5%;
     }
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
         
 .semibig {
     color: #0A0E17;
