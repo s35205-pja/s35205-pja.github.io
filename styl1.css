@@ -83,7 +83,7 @@ button {
     border: solid 4px #0A0E17;
 }
 
-button: hover {
+button:hover {
     color: #0A0E17;
     background-color: white;
     transition: 0.5s;
