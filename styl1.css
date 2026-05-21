@@ -183,6 +183,7 @@ footer button {
         width: 100%;
     }
     footer p {
+        margin: 10px;
         text-align: center;
     }
 }
