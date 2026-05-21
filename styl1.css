@@ -66,6 +66,13 @@ h3 {
     margin-left: 200px;
     margin-right: 200px;
 }
+
+@media (max-width: 1000px) {
+    .kolumna {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+        
 .semibig {
     color: #0A0E17;
     font-family: "Playfair Display", serif;
