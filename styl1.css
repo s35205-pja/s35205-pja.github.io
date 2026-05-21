@@ -162,7 +162,7 @@ footer button {
     width: 350px;
 }
 
-@megia (max-width: 1000px) {
+@media (max-width: 1000px) {
     footer {
         display: flex;
         flex-direction: column;
