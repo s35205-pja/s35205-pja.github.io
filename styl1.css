@@ -99,8 +99,7 @@ button: hover {
 }
 
 .imgsemi {
-    height: 1000px;
-    width: 500px;
+    width: 100px;
     display: flex;
     justify-content: center;
     padding: 0px;
