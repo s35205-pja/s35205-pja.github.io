@@ -184,7 +184,7 @@ footer button {
 
 
 .scroll_box {
-    background-color: #808080;
+    background-color: white;
     width: 500px;
     height: 600px;
     display: flex;
@@ -194,10 +194,16 @@ footer button {
 
 .scroll_box a {
     margin: 20px auto 20px auto;
-    color: white;
+    color: #808080;
     font-size: 26px;
     text-decoration: none;
 }
+
+.scroll_box a:hover {
+    color: #0A0E17;
+    font-size: 32px;
+}
+
 .content {
     background-color: white;
     font-size: 30px;
