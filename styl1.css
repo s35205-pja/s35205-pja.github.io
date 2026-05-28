@@ -193,8 +193,17 @@ footer button {
     background-color: #808080;
     width: 200px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
+.scroll_box a {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
 .content {
     background-color: white;
     width: 200px;
