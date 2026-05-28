@@ -189,7 +189,14 @@ footer button {
 }
 
 
-// INDEX 4
-
 .scroll_box {
-    background-color: 
+    background-color: #808080;
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
