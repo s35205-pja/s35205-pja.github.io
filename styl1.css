@@ -192,20 +192,20 @@ footer button {
 .scroll_box {
     background-color: #808080;
     width: 200px;
-    height: 200px;
+    height: 600px;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 .scroll_box a {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 20px auto 20px auto;
     color: white;
     font-size: 26px;
     text-decoration: none;
 }
 .content {
     background-color: white;
-    width: 200px;
-    height: 200px;
+    font-size: 30px;
+    color: black;
 }
