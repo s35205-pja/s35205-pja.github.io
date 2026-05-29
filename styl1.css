@@ -210,3 +210,10 @@ footer button {
     font-size: 30px;
     color: black;
 }
+
+.history_photos {
+    display: flex;
+    margin: auto;
+    padding: 0px;
+    width: 30%;
+}
