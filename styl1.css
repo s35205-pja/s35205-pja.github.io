@@ -256,6 +256,7 @@ footer button {
 }
 
 .history_photos {
+    width: 100%;
     max-width: 600px;
     height: auto;
     display: block;
@@ -264,6 +265,11 @@ footer button {
 @media (max-width: 1000px) {
     .history_photos {
         width: 100%;
+        max-width: 100%;
+    }
+    .pandimg {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
