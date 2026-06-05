@@ -185,6 +185,7 @@ footer button {
 .under_header {
     display: flex;
     min-height: 570px;
+    margin-top: 20px;
 }
 
 .under_photo {
