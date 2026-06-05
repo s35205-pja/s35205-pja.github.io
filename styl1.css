@@ -293,16 +293,33 @@ footer button {
     }
 }
 
+.photo_gallery {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+}
+
 .one_line_photos {
     display: flex;
     gap: 30px;
     height: 500px;
-    width: 100%;
-    box-sizing: border-box;
+    width: max-content;
 }
 
-.on_line_photos img {
+.photo_card {
+    width: 300px;
+    flex: 0 0 auto;
+}
+
+.photo_card img {
+    width: 100%
+    height: 220px;
     object-fit: contain;
-    height: 100%;
     display: block;
+}
+
+photo_card p {
+    font-size: 15px;
+    margin-top: 10px;
 }
