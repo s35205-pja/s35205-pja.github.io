@@ -214,11 +214,10 @@ footer button {
 .history_photos {
     margin: auto;
     padding: 0px;
-    width: 30%;
+    height: 200px;
+    width: auto;
 }
 
 .pandimg {
     display: flex;
-    height: 100px;
-    width: auto;
 }
