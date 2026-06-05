@@ -217,6 +217,12 @@ footer button {
     display: block;
 }
 
+@media (max-width: 1000px) {
+    .history_photos {
+        width: 100%;
+    }
+}
+
 .pandimg {
     display: flex;
     align-items: center;
