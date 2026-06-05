@@ -297,10 +297,12 @@ footer button {
     display: flex;
     gap: 30px;
     height: 500px;
+    width: 100%;
     box-sizing: border-box;
 }
 
-.on_line_photos {
+.on_line_photos img {
     object-fit: contain;
+    height: 100%;
     display: block;
 }
