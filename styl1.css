@@ -212,12 +212,14 @@ footer button {
 }
 
 .history_photos {
-    margin: auto;
-    padding: 0px;
-    height: 200px;
-    width: auto;
+    max-width: 300px;
+    height: auto;
+    display: block;
 }
 
 .pandimg {
     display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    overflow: hidden;
 }
