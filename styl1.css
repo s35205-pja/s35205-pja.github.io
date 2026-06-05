@@ -189,7 +189,8 @@ footer button {
     height: 600px;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: sticky;
+    top: 40px;
     z-index: 1000;
     overflow: auto;
 }
