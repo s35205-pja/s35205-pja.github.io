@@ -187,11 +187,11 @@ footer button {
     min-height: 570px;
 }
 
-.under_photo_full {
+.under_photo {
     width: 45%;
 }
 
-.under_photo {
+.under_photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
