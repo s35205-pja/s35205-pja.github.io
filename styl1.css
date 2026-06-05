@@ -202,6 +202,7 @@ footer button {
 .under_text {
     width: 55%;
     background-color: #e5e4e2;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
