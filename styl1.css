@@ -219,7 +219,13 @@ footer button {
 
 .pandimg {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
     gap: 20px;
     overflow: hidden;
+}
+
+.pandimg p {
+    flex: 1;
+    margin: 0;
 }
