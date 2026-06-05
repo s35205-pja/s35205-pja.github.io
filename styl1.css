@@ -292,3 +292,10 @@ footer button {
         align-items: flex-start;
     }
 }
+
+.one_line_photos {
+    display: flex;
+    gap: 30px;
+    height: 500px;
+    padding: 50px;
+}
