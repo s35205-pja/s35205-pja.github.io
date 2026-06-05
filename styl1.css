@@ -260,6 +260,7 @@ footer button {
     max-width: 600px;
     height: auto;
     display: block;
+    flex-shrink: 1;
 }
 
 .pandimg {
@@ -284,7 +285,6 @@ footer button {
 
 @media (max-width: 1000px) {
     .history_photos {
-        width: 100%;
         max-width: 100%;
     }
     .pandimg {
