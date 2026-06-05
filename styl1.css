@@ -297,4 +297,10 @@ footer button {
     display: flex;
     gap: 30px;
     height: 500px;
+    box-sizing: border-box;
+}
+
+.on_line_photos {
+    object-fit: contain;
+    display: block;
 }
