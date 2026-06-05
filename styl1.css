@@ -210,6 +210,21 @@ footer button {
     box-sizing: border-box;
 }
 
+@media (max-width: 1000px) {
+    .under_header {
+        flex-direction: column;
+    }
+    .under_photo,
+    .under_text {
+        width: 100%;
+    }
+    .under_photo {
+        height: 350px;
+    }
+    .under_text {
+        padding: 60px 30px
+    }
+}
 
 .scroll_box {
     background-color: white;
