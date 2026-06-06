@@ -336,7 +336,7 @@ footer button {
 .alot_imgs img {
     display: block;
     width: auto;
-    height: 600px;
+    max-height: 600px;
 }
 
 .alot_imgs p {
