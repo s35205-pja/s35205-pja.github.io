@@ -318,7 +318,23 @@ footer button {
     display: block;
 }
 
-photo_card p {
+.photo_card p {
     font-size: 15px;
     margin-top: 10px;
+}
+
+.alot_img {
+    display: flex-wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.alot_img img {
+    display: block;
+    max-height: 600px;
+}
+
+.alot_img p {
+    font-size: 15px;
+    text-align: center;
 }
