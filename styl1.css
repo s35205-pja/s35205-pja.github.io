@@ -323,18 +323,24 @@ footer button {
     margin-top: 10px;
 }
 
-.alot_imgs {
-    display: flex-wrap;
-    gap: 20px;
-    justify-content: center;
+.alot_imgs_place {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 30px;
+    align-items: start;
 }
 
 .alot_imgs img {
     display: block;
-    max-height: 600px;
+    width: auto;
+    height: 100%
 }
 
 .alot_imgs p {
     font-size: 15px;
     text-align: center;
+    margin-top: 8px;
 }
