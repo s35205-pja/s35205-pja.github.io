@@ -294,7 +294,9 @@ footer button {
 }
 
 .photo_gallery {
-    width: 100%;
+    --gallery-side-margin: 40px;
+    width: calc(100% - (var(--gallery-side-margin) * 2));
+    margin-inline: auto;
     overflow: hidden;
     padding-bottom: 20px;
     position: relative;
