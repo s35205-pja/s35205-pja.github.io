@@ -236,17 +236,13 @@ footer button {
 }
 
 .under_text h1,
-.under_text h2,
-.under_text h3,
 .under_text p {
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
 }
 
-.under_text h1,
-.under_text h2,
-.under_text h3 {
+.under_text h1 {
     font-size: clamp(26px, 2.4vw, 34px);
     line-height: 1.15;
     margin-bottom: 35px;
@@ -268,9 +264,7 @@ footer button {
         padding-inline: 8%;
     }
 
-    .under_text h1,
-    .under_text h2,
-    .under_text h3 {
+    .under_text h1 {
         font-size: 3vw;
         margin-bottom: 25px;
     }
@@ -303,9 +297,7 @@ footer button {
         padding: 50px 30px;
     }
 
-    .under_text h1,
-    .under_text h2,
-    .under_text h3 {
+    .under_text h1 {
         font-size: 28px;
         margin-bottom: 28px;
     }
