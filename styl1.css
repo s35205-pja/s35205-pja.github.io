@@ -282,7 +282,6 @@ footer button {
 
 @media (max-width: 700px) {
     .under_header {
-        width: calc(100% - 40px);
         grid-template-columns: 1fr;
         min-height: 0;
     }
