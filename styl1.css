@@ -330,20 +330,6 @@ footer button {
     margin-top: 10px;
 }
 
-
-@media (max-width: 1000px) {
-    .one_line_photos {
-        gap: clamp(15px, 3vw, 30px);
-    }
-
-    .photo_card {
-        height: clamp(260px, 50vw, 500px);
-    }
-
-    .photo_card p {
-        font-size: clamp(13px, 1.5vw, 15px);
-}
-
 .gallery_arrows {
     height: 50px;
     width: 100%; 
