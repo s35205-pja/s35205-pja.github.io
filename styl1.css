@@ -300,9 +300,7 @@ footer button {
 }
 
 .photo_gallery {
-    --gallery-side-margin: 40px;
-    width: calc(100% - (var(--gallery-side-margin) * 2));
-    margin-inline: auto;
+    width: 100%;
     overflow: hidden;
     padding-bottom: 20px;
     position: relative;
@@ -332,11 +330,8 @@ footer button {
     margin-top: 10px;
 }
 
-@media (max-width: 1000px) {
-    .photo_gallery {
-        --gallery-side-margin: clamp(16px, 4vw, 40px);
-    }
 
+@media (max-width: 1000px) {
     .one_line_photos {
         gap: clamp(15px, 3vw, 30px);
     }
