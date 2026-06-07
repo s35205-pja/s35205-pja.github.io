@@ -123,6 +123,13 @@ button:hover {
     transition: 0.5s;
 }
 
+.button_placed {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+}
+
 .quote {
     color: #0A0E17;
     font-size: 40px;
