@@ -191,7 +191,7 @@ footer button {
 .under_header {
     width: calc(100% - 80px);
     max-width: 1200px;
-    /* margin: 20px auto 0 auto; */
+    margin: 20px 0 10px 0;
 
     display: grid;
     grid-template-columns: 45% 55%;
