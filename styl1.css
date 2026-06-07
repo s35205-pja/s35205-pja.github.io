@@ -363,7 +363,7 @@ footer button {
 
 .alot_imgs img {
     display: block;
-    max-height: 800px;
+    max-width: 800px;
 }
 
 .alot_imgs p {
