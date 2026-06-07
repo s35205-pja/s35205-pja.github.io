@@ -365,11 +365,13 @@ footer button {
 .alot_imgs {
     width: 24%;
     padding: 0px .5%;
+    box-sizing: border-box;
 }
 
 .alot_imgs img {
     display: block;
-    max-width: 800px;
+    width: 100%;
+    height: auto;
 }
 
 .alot_imgs p {
