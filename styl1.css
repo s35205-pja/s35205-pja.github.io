@@ -189,7 +189,7 @@ footer button {
 }
 
 .under_header {
-    width: calc(100% - 80px);
+    width: 100%
     max-width: 1200px;
     margin: 20px 0 10px 0;
 
@@ -255,9 +255,8 @@ footer button {
 
 @media (max-width: 1000px) {
     .under_header {
-        width: calc(100% - 60px);
-        grid-template-columns: 45% 55%;
-        min-height: clamp(320px, 45vw, 500px);
+        grid-template-columns: 1fr;
+        min-height: 0;
     }
 
     .under_text {
