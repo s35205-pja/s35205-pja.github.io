@@ -357,54 +357,86 @@ html {
     scroll-behavior: smooth;
 }
 
-.scroll_box {
+html {
+    scroll-behavior: smooth;
+}
+
+.year_nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    width: 100%;
     background-color: white;
-    width: 400px;
-    max-width: calc(100vw - 40px);
-    height: min(600px, calc(100svh - 80px));
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    gap: 28px;
 
-    position: sticky;
-    top: calc((100svh - min(600px, calc(100svh - 80px))) / 2);
-
-    overflow-y: auto;
-    overflow-x: hidden;
-
+    padding: 18px 40px;
     box-sizing: border-box;
-    padding: 20px 0;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    white-space: nowrap;
 }
 
-.scroll_box a,
-.scroll_box a:link,
-.scroll_box a:visited,
-.scroll_box a:hover,
-.scroll_box a:active {
+.year_nav a,
+.year_nav a:link,
+.year_nav a:visited,
+.year_nav a:hover,
+.year_nav a:active {
     color: #808080;
-    font-size: 45px;
+    font-size: 22px;
     text-decoration: none !important;
-    margin: 20px 0;
+    flex: 0 0 auto;
 }
 
-.scroll_box a:hover {
+.year_nav a:hover {
     color: #0A0E17;
 }
 
+div[id] {
+    scroll-margin-top: 90px;
+}
+
 @media (max-width: 1000px) {
-    .scroll_box {
-        width: 40vw;
+    .year_nav {
+        justify-content: flex-start;
+        gap: 24px;
+        padding: 16px 30px;
     }
 
-    .scroll_box a,
-    .scroll_box a:link,
-    .scroll_box a:visited,
-    .scroll_box a:hover,
-    .scroll_box a:active {
-        font-size: 4.5vw;
-        margin: 2vw 0;
-        text-decoration: none !important;
+    .year_nav a,
+    .year_nav a:link,
+    .year_nav a:visited,
+    .year_nav a:hover,
+    .year_nav a:active {
+        font-size: 20px;
+    }
+
+    section[id] {
+        scroll-margin-top: 80px;
+    }
+}
+
+@media (max-width: 600px) {
+    .year_nav {
+        gap: 20px;
+        padding: 14px 20px;
+    }
+
+    .year_nav a,
+    .year_nav a:link,
+    .year_nav a:visited,
+    .year_nav a:hover,
+    .year_nav a:active {
+        font-size: 18px;
+    }
+
+    section[id] {
+        scroll-margin-top: 70px;
     }
 }
 
