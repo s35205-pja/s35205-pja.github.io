@@ -388,7 +388,7 @@ html {
 .year_nav a:hover,
 .year_nav a:active {
     color: #808080;
-    font-size: 22px;
+    font-size: 35px;
     text-decoration: none !important;
     flex: 0 0 auto;
 }
