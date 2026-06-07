@@ -75,6 +75,12 @@ h3 {
     text-align: left;
 }
 
+@media (max-width: 1000px) {
+    h3 {
+        font-size: 6vw;
+    }
+}
+
 .kolumna {
     margin-left: 350px;
     margin-right: 350px;
