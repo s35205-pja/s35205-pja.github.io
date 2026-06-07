@@ -308,6 +308,7 @@ footer button {
 
 .photo_gallery {
     width: 100%;
+    height: 600px;
     overflow: hidden;
     padding-bottom: 20px;
     position: relative;
