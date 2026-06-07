@@ -305,6 +305,7 @@ footer button {
     display: flex;
     gap: 30px;
     width: 100%;
+    overflow-x: scroll;
 }
 
 .photo_card {
