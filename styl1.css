@@ -234,12 +234,12 @@ footer button {
 
 .scroll_box {
     background-color: white;
-    width: 400px;
-    height: 600px;
+    width: min(400px, calc(100vw - 40px));
+    height: min(600px, calc(100vh - 80px));
     display: flex;
     flex-direction: column;
     position: sticky;
-    top: 40px;
+    top: calc((100vh - min(600px, calc(100vh - 80px))) / 2);
     z-index: 1000;
     overflow: auto;
 }
@@ -253,6 +253,13 @@ footer button {
 
 .scroll_box a:hover {
     color: #0A0E17;
+}
+
+@media (max-width: 1000px) {
+    .scroll_box a {
+        font-size: 4.5vw;
+        margin: 16px auto;
+    }
 }
 
 .content {
