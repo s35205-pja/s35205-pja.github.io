@@ -254,17 +254,29 @@ footer button {
     overflow-x: hidden;
     box-sizing: border-box;
     container-type: inline-size;
+    font-size: 45px;
 }
 
 .scroll_box a {
     margin: 20px auto;
     color: #808080;
-    font-size: max(40px, 11.25cqw);
+    font-size: inherit
     text-decoration: none;
 }
 
 .scroll_box a:hover {
     color: #0A0E17;
+}
+
+@media (max-width: 1000px) {
+    .scroll_box {
+        width: 40vw;
+        font-size: 4.5vw;
+    }
+
+    .scroll_box a {
+        margin: 0.45em auto;
+    }
 }
 
 .content {
