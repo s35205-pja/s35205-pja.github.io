@@ -212,7 +212,7 @@ footer button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 13%;
+    padding-inline: 13%;
     box-sizing: border-box;
 }
 
@@ -228,7 +228,7 @@ footer button {
         height: 350px;
     }
     .under_text {
-        padding: 60px 30px
+        padding: 60px 30px;
     }
 }
 
