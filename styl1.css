@@ -126,12 +126,19 @@ button:hover {
 .button_placed {
     height: 100px;
     width: 100px;
+    pointer-events: auto;
+}
+
+.button_space_fixer {
     position: sticky;
-    top: calc(100vh - 100px - 20px);
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
+    top: calc(100vh - 120px);
+    height: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    box-sizing: border-box;
     z-index: 9999;
+    pointer-events: none;
 }
 
 .quote {
