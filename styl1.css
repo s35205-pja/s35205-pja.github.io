@@ -141,6 +141,26 @@ button:hover {
     pointer-events: none;
 }
 
+.button-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    color: white;
+    background-color: #0A0E17;
+    border: solid 4px #0A0E17;
+    font-size: 30px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.button-link:hover {
+    color: #0A0E17;
+    background-color: white;
+    transition: 0.5s;
+}
+
 main {
     padding-bottom: 100px;
 }
@@ -190,7 +210,8 @@ footer p {
     text-align: left;
 }
 
-footer button {
+footer button,
+footer .button-link {
     font-family: "Climate Crisis", sans-serif;
     width: 350px;
 }
@@ -201,7 +222,8 @@ footer button {
         flex-direction: column;
         width: 100%;
     }
-    footer button {
+    footer button,
+    footer .button-link {
         width: 100%;
     }
     footer p {
