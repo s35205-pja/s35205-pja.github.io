@@ -161,6 +161,15 @@ main {
     background-position: bottom right;
 }
 
+@media (max-width: 700px) {
+    .quote {
+        font-size: 26px;
+        margin-top: 30px;
+        padding: 35px 25px;
+        background-size: 90px auto;
+    }
+}
+
 .imgsemi {
     width: 60%;
     margin: auto;
