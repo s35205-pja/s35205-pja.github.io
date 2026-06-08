@@ -199,13 +199,10 @@ footer button {
     width: 100%
     max-width: 1200px;
     margin: 0px 0 10px 0;
-
     display: grid;
     grid-template-columns: 45% 55%;
     align-items: stretch;
-
     min-height: clamp(360px, 42vw, 570px);
-
     box-sizing: border-box;
 }
 
@@ -235,7 +232,6 @@ footer button {
     justify-content: center;
     padding-inline: 13%;
     box-sizing: border-box;
-    font-family: "Playfair Display", serif;
     overflow-wrap: break-word;
 }
 
@@ -244,6 +240,7 @@ footer button {
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
+    font-family: "Playfair Display", serif;
 }
 
 .under_text h1 {
