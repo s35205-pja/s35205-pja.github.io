@@ -124,7 +124,7 @@ button:hover {
 }
 
 .button_placed {
-    position: fixed;
+    position: sticky;
     right: 20px;
     bottom: 20px;
     z-index: 9999;
