@@ -109,7 +109,7 @@ img {
 
 @media (max-width: 700px) {
     .semibig {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 1.25;
     }
 }
