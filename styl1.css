@@ -511,7 +511,7 @@ div[id] {
 
 .alot_imgs {
     width: 24%;
-    padding: 0px .5%;
+    padding: 0px 0%;
     box-sizing: border-box;
 }
 
@@ -531,6 +531,6 @@ div[id] {
 @media (max-width: 1000px) {
     .alot_imgs {
         width: 48%;
-        padding: 0px 1%;
+        padding: 0px 0%;
     }
 }
