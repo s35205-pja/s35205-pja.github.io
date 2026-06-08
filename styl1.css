@@ -196,7 +196,7 @@ footer button {
 }
 
 .under_header {
-    /* width: 100%; */
+    width: 100%;
     max-width: 1200px;
     margin: 0px 0 10px 0;
     display: grid;
@@ -215,10 +215,8 @@ footer button {
 .under_photo img {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
     object-position: center;
-
     display: block;
 }
 
