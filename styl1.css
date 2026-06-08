@@ -107,6 +107,13 @@ img {
     text-align: left;
 }
 
+@media (max-width: 700px) {
+    .semibig {
+        font-size: 22px;
+        line-height: 1.25;
+    }
+}
+
 button {
     height: 100px;
     width: 400px;
@@ -344,10 +351,6 @@ footer button {
     flex: 1;
 } 
 
-/* .text_pandimg h1 {
-    margin: 0 0 20px 0;
-} */
-
 .text_pandimg p {
     margin: 0;
 }
@@ -387,6 +390,7 @@ html {
     font-size: 35px;
     text-decoration: none !important;
     flex: 0 0 auto;
+    font-family: "Playfair Display", serif;
 }
 
 .year_nav a:hover {
@@ -404,7 +408,7 @@ div[id] {
         padding: 16px 30px;
     }
     .year_nav a {
-        font-size: 20px;
+        font-size: 30px;
     }
     section[id] {
         scroll-margin-top: 80px;
