@@ -124,8 +124,8 @@ button:hover {
 }
 
 .button_placed {
-    height: 90px;
-    width: 90px;
+    height: 75px;
+    width: 75px;
     pointer-events: auto;
 }
 
