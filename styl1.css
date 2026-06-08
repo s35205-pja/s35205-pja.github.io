@@ -228,17 +228,14 @@ footer button {
 .under_text {
     width: 100%;
     min-width: 0;
-
     background-color: #e5e4e2;
     color: black;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     padding-inline: 13%;
     box-sizing: border-box;
-
+    font-family: "Playfair Display", serif;
     overflow-wrap: break-word;
 }
 
@@ -265,16 +262,13 @@ footer button {
         grid-template-columns: 1fr;
         min-height: 0;
     }
-
     .under_text {
         padding-inline: 8%;
     }
-
     .under_text h1 {
         font-size: 3vw;
         margin-bottom: 25px;
     }
-
     .under_text p {
         font-size: 1.6vw;
     }
@@ -285,28 +279,23 @@ footer button {
         grid-template-columns: 1fr;
         min-height: 0;
     }
-
     .under_photo {
         order: 1;
         height: auto;
     }
-
     .under_photo img {
         width: 100%;
         height: auto;
         object-fit: contain;
     }
-
     .under_text {
         order: 2;
         padding: 50px 30px;
     }
-
     .under_text h1 {
         font-size: 28px;
         margin-bottom: 28px;
     }
-
     .under_text p {
         font-size: 16px;
     }
@@ -408,7 +397,6 @@ div[id] {
         gap: 24px;
         padding: 16px 30px;
     }
-
     .year_nav a,
     .year_nav a:link,
     .year_nav a:visited,
@@ -416,7 +404,6 @@ div[id] {
     .year_nav a:active {
         font-size: 20px;
     }
-
     section[id] {
         scroll-margin-top: 80px;
     }
@@ -427,7 +414,6 @@ div[id] {
         gap: 20px;
         padding: 14px 20px;
     }
-
     .year_nav a,
     .year_nav a:link,
     .year_nav a:visited,
@@ -435,7 +421,6 @@ div[id] {
     .year_nav a:active {
         font-size: 36px;
     }
-
     section[id] {
         scroll-margin-top: 70px;
     }
