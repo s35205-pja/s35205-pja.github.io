@@ -537,3 +537,30 @@ div[id] {
         padding: 0;
     }
 }
+
+.video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 40px 0;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    .video {
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .video {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
