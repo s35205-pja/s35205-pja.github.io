@@ -572,3 +572,173 @@ div[id] {
         margin: 20px 0;
     }
 }
+
+.camera_svg_section {
+    margin: 80px auto;
+    padding: 60px 40px;
+    background-color: #e5e4e2;
+    text-align: center;
+    color: #0A0E17;
+}
+
+.camera_svg_box {
+    width: min(420px, 80vw);
+    margin: 30px auto;
+}
+
+.camera_svg {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    animation: camera_float 3s ease-in-out infinite;
+}
+
+.camera_body,
+.camera_top {
+    fill: #0A0E17;
+}
+
+.camera_flash {
+    fill: #808080;
+    animation: flash_blink 2.5s steps(2, end) infinite;
+}
+
+.camera_lens_outer {
+    fill: #F4F7F6;
+    stroke: #0A0E17;
+    stroke-width: 8;
+}
+
+.camera_lens_middle {
+    fill: #808080;
+    animation: lens_pulse 2.5s ease-in-out infinite;
+}
+
+.camera_lens_inner {
+    fill: #0A0E17;
+    animation: shutter_click 2.5s steps(2, end) infinite;
+}
+
+.camera_light {
+    fill: white;
+    animation: light_flash 2.5s steps(2, end) infinite;
+}
+
+.camera_strap {
+    fill: none;
+    stroke: #0A0E17;
+    stroke-width: 8;
+    stroke-linecap: round;
+    animation: strap_move 3s ease-in-out infinite;
+}
+
+@keyframes camera_float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes lens_pulse {
+    0% {
+        transform: scale(1);
+        transform-origin: 150px 128px;
+    }
+
+    50% {
+        transform: scale(1.12);
+        transform-origin: 150px 128px;
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: 150px 128px;
+    }
+}
+
+@keyframes shutter_click {
+    0% {
+        transform: scale(1);
+        transform-origin: 150px 128px;
+    }
+
+    45% {
+        transform: scale(1);
+        transform-origin: 150px 128px;
+    }
+
+    50% {
+        transform: scale(0.45);
+        transform-origin: 150px 128px;
+    }
+
+    55% {
+        transform: scale(1);
+        transform-origin: 150px 128px;
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: 150px 128px;
+    }
+}
+
+@keyframes flash_blink {
+    0% {
+        fill: #808080;
+    }
+
+    50% {
+        fill: white;
+    }
+
+    100% {
+        fill: #808080;
+    }
+}
+
+@keyframes light_flash {
+    0% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes strap_move {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 700px) {
+    .camera_svg_section {
+        padding: 40px 25px;
+        margin: 50px auto;
+    }
+
+    .camera_svg_box {
+        width: 90vw;
+    }
+}
