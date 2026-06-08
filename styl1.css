@@ -365,28 +365,19 @@ html {
     position: sticky;
     top: 0;
     z-index: 1000;
-
     width: 100%;
     background-color: white;
-
     display: flex;
     justify-content: center;
     gap: 28px;
-
     padding: 18px 40px;
     box-sizing: border-box;
-
     overflow-x: auto;
     overflow-y: hidden;
-
     white-space: nowrap;
 }
 
-.year_nav a,
-.year_nav a:link,
-.year_nav a:visited,
-.year_nav a:hover,
-.year_nav a:active {
+.year_nav a {
     color: #808080;
     font-size: 35px;
     text-decoration: none !important;
@@ -407,11 +398,7 @@ div[id] {
         gap: 24px;
         padding: 16px 30px;
     }
-    .year_nav a,
-    .year_nav a:link,
-    .year_nav a:visited,
-    .year_nav a:hover,
-    .year_nav a:active {
+    .year_nav a {
         font-size: 20px;
     }
     section[id] {
@@ -424,11 +411,7 @@ div[id] {
         gap: 20px;
         padding: 14px 20px;
     }
-    .year_nav a,
-    .year_nav a:link,
-    .year_nav a:visited,
-    .year_nav a:hover,
-    .year_nav a:active {
+    .year_nav a {
         font-size: 36px;
     }
     section[id] {
