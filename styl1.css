@@ -433,7 +433,7 @@ div[id] {
     .year_nav a:visited,
     .year_nav a:hover,
     .year_nav a:active {
-        font-size: 18px;
+        font-size: 36px;
     }
 
     section[id] {
