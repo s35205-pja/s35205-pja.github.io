@@ -211,7 +211,7 @@ footer button {
 }
 
 .under_header {
-    width: 100vw;
+    width: 100%;
     max-width: none;
     margin: 0px 0 10px 0;
     display: grid;
