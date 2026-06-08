@@ -124,6 +124,7 @@ button:hover {
 }
 
 .button_placed {
+    display: block;
     position: sticky;
     top: calc(100vh - 100px - 20px);
     margin-left: auto;
