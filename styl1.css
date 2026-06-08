@@ -311,12 +311,17 @@ footer button {
     }
 }
 
-
-
 .content {
     background-color: white;
     font-size: 30px;
     color: black;
+}
+
+.content h2 {
+    color: #0A0E17;
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    margin: 0 0 20px 0;
 }
 
 .history_photos {
@@ -337,11 +342,11 @@ footer button {
 
 .text_pandimg {
     flex: 1;
-}
+} 
 
-.text_pandimg h1 {
+/* .text_pandimg h1 {
     margin: 0 0 20px 0;
-}
+} */
 
 .text_pandimg p {
     margin: 0;
