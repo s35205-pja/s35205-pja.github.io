@@ -222,7 +222,7 @@ footer button {
 }
 
 .under_text {
-    width: 100%;
+   /* width: 100%; */
     min-width: 0;
     background-color: #e5e4e2;
     color: black;
