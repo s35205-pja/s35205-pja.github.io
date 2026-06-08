@@ -574,16 +574,16 @@ div[id] {
 }
 
 .camera_svg_section {
-    margin: 80px auto;
-    padding: 60px 40px;
+    margin: 30px auto;
+    padding: 35px 40px;
     background-color: #e5e4e2;
     text-align: center;
     color: #0A0E17;
 }
 
 .camera_svg_box {
-    width: min(420px, 80vw);
-    margin: 30px auto;
+    width: min(280px, 60vw);
+    margin: 10px auto;
 }
 
 .camera_svg {
