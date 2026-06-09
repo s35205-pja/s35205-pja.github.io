@@ -354,11 +354,11 @@ footer button {
         padding: 50px 30px;
     }
     .under_text h1 {
-        font-size: 35px;
-        margin-bottom: 28px;
+        font-size: 2vw;
+        margin-bottom: 25px;
     }
     .under_text p {
-        font-size: 25px;
+        font-size: 1.1vw;
     }
 }
 
