@@ -172,19 +172,6 @@ button:hover {
     }
 }
 
-/* .explore_button {
-    margin: 50px 30px;
-}
-
-@media (max-width: 700px) {
-    .explore_button {
-        width: calc(100% - 40px);
-        margin: 50px 20px;
-        height: 80px;
-        font-size: 24px;
-    }
-} */
-
 .quote {
     color: #0A0E17;
     font-size: 40px;
@@ -324,11 +311,11 @@ footer button {
         padding-inline: 8%;
     }
     .under_text h1 {
-        font-size: 3vw;
+        font-size: 2vw;
         margin-bottom: 25px;
     }
     .under_text p {
-        font-size: 1.6vw;
+        font-size: 1.1vw;
     }
 }
 
