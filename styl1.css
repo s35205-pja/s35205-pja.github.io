@@ -161,7 +161,9 @@ button:hover {
 }
 
 @media {
+    .diff_button {
     margin: 1.78% 15px;
+    }
 }
 
 /* .explore_button {
