@@ -157,12 +157,18 @@ button:hover {
 }
 
 .diff_button {
-    margin: 50px 20px;
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin: 50px auto;
 }
 
-@media {
+@media (max-width: 700px) {
     .diff_button {
-    margin: 1.78% 15px;
+        width: calc(100vw - 60px);
+        height: calc((100vw - 60px) / 4);
+        margin: 50px auto;
+        font-size: clamp(18px, 6vw, 30px);
     }
 }
 
