@@ -761,7 +761,7 @@ div[id] {
 @media (max-width: 700px) {
     .camera_svg_section {
         padding: 40px 25px;
-        margin: 50px auto;
+        margin: 0px auto;
     }
 
     .camera_svg_box {
