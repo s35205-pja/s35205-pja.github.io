@@ -245,6 +245,22 @@ footer button {
     }
 }
 
+.explore_title {
+    margin: 50px 60px 35px 60px;
+}
+
+.photo_margin_top {
+    margin-top: 50px;
+}
+
+.timeline_layout {
+    display: flex;
+}
+
+.grayscale_photo {
+    filter: grayscale(100%);
+}
+
 .under_header {
     width: 100%;
     max-width: none;
