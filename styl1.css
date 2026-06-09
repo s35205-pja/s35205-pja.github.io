@@ -156,18 +156,18 @@ button:hover {
     pointer-events: none;
 }
 
-.explore_button {
+/* .explore_button {
     margin: 50px 30px;
 }
 
 @media (max-width: 700px) {
     .explore_button {
         width: calc(100% - 40px);
-        margin: 50px 40px;
+        margin: 50px 20px;
         height: 80px;
         font-size: 24px;
     }
-}
+} */
 
 .quote {
     color: #0A0E17;
